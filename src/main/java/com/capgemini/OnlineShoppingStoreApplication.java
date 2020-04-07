@@ -8,6 +8,8 @@ public class OnlineShoppingStoreApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(OnlineShoppingStoreApplication.class, args);
+		
+		System.out.println("Hello Spring");
 	}
 
 }

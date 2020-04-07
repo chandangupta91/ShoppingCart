@@ -7,4 +7,5 @@ import com.capgemini.entity.User;
 public interface Userrepository extends JpaRepository<User, Long>{
 
 	
+	
 }

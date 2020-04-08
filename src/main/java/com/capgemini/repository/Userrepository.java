@@ -4,8 +4,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.capgemini.entity.User;
 
-public interface Userrepository extends JpaRepository<User, Long>{
+public interface Userrepository extends JpaRepository<User, String>{
 
-	
+	User findByEmail(String email);
 	
 }

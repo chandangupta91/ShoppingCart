@@ -1,0 +1,29 @@
+
+.dropdown{
+    border-radius:0;
+    border:0;
+}
+.dropdown-menu{
+    background: #ffffff;
+    border:1;
+    top:80%;
+    border-radius:0px 0px 5px 5px;
+}
+.dropdown-item:hover{
+    background:#ffffff;
+    color:#fff;
+}
+.dropdown-menu a{
+    color:rgb(0, 0, 0);
+    
+} 
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  

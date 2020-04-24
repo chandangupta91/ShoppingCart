@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 220px;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  body{
+    background-color: rgb(228, 247, 228);
+  }
+
+  #loda{
+    background-color: rgb(228, 247, 228);
+  }
